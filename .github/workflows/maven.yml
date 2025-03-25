@@ -13,6 +13,9 @@ on:
     branches: [ "master" ]
   pull_request:
     branches: [ "master" ]
+permissions:
+  contents: read
+  security-events: write  # 这是提交依赖数据所必需的
 
 jobs:
   build:
