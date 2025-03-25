@@ -15,7 +15,9 @@ on:
     branches: [ "master" ]
 permissions:
   contents: read
-  security-events: write  # 这是提交依赖数据所必需的
+  security-events: write
+  dependency-graph: write  # 明确添加依赖图写入权限
+
 
 jobs:
   build:
