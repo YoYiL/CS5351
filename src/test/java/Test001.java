@@ -8,12 +8,12 @@ import Samples.*;
 public class Test001 {
 	 @Test
 	 public void testA() {
-			assertEquals(3, FloorSquareRoot.floorSqrt(11));
+			assertEquals(3, FloorSquareRoot.floorSqrt(111111));
 	 }
 
 	 @Test
 	 public void testB() {
-			assertEquals(4, FloorSquareRoot.floorSqrt(20));
+			assertEquals(4, FloorSquareRoot.floorSqrt(2011111));
 	 }
 }
 
